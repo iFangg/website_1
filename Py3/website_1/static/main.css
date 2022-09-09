@@ -78,3 +78,18 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+.dropdown-container {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.dropdown-container.visible .dropdown-options {
+  max-height: 100vh;
+}
+
+.dropdown-options {
+  overflow: hidden;
+  max-height: 2.70rem;
+  transition: max-height 0.3s;
+}
